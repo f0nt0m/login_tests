@@ -3,7 +3,7 @@ const cors = require('cors');
 const path = require('path');
 
 const app = express();
-const port = 5500; // Новый порт
+const port = 5500;
 
 const users = [
     { email: "test@example.com", password: "password123" },

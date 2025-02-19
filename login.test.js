@@ -15,7 +15,6 @@ describe('Тесты формы логина', () => {
     });
 
     test('Страница содержит форму авторизации', async () => {
-        // Проверяем, что на странице есть элемент формы с id "loginForm"
         const form = await page.$('#loginForm');
         expect(form).not.toBeNull();
     });
